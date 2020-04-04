@@ -1,0 +1,16 @@
+    <header role="banner">
+        {% include navigation.html %}
+        <div class="wrapper" style="text-align: right; line-height: 2em">
+		  <!-- {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+		  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+
+		  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+		  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %} -->
+		  {% if page.ref == "home" %}<a href="/">en</a>{% endif %}
+		  {% if page.ref == "about" %}<a href="/about">en</a>{% endif %}
+		  {% if page.ref == "home" %}<a href="/index_arabic">عربي</a>{% endif %}
+		  {% if page.ref == "about" %}<a href="/about_arabic">عربي</a>{% endif %}
+		  <!-- <a href="/index_arabic">عربي</a> -->
+		</div>
+    </header>
+    

@@ -1,0 +1,4 @@
+---
+layout: comics
+title: Comics
+---

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="grid">
+
+  {% for comic in site.comics %}
+  
+    <article role="article" class="card">
+	    <div class="meta">
+      <h2><a href="{{ site.baseurl }}/v1.3" target="_blank">
+        {{ comic.title }}
+      </a></h2>
+      <img src="{{comic.image}}">
+
+      <p>{{ comic.summary }}</p>
+	    </div>
+    </article>
+    
+    
+  {% endfor %}
+  
+</div>

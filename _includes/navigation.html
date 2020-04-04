@@ -1,0 +1,14 @@
+<nav role="navigation">
+  <ul>
+    {% if page.lang == "en" %}<li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>{% endif %}
+    {% if page.lang == "عربي" %}<li><a href="/index_arabic" {% if page.url == "/" %}class="active"{% endif %}>مدخل</a></li>{% endif %}
+    <!-- <li><a href="/tags" {% if page.url == "/tags" %}class="active"{% endif %}>Tags</a></li> -->
+    {% if page.lang == "en" %}<li><a href="/about" {% if page.url == "/" %}class="active"{% endif %}>About</a></li>{% endif %}
+    {% if page.lang == "عربي" %}<li><a href="/about_arabic" {% if page.url == "/" %}class="active"{% endif %}>حول</a></li>{% endif %}
+
+    <!-- <li><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li> -->
+    <!-- <li><a href="/projects" {% if page.url == "/projects" %}class="active"{% endif %}>Projects</a></li>
+    <li><a href="/comics" {% if page.url == "/comics" %}class="active"{% endif %}>Comics</a></li>
+    <li><a href="/atom.xml">Feed</a></li> -->
+  </ul>
+</nav>

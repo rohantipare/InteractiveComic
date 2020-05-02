@@ -337,6 +337,6 @@ table td { border: 1px solid #e8e8e8; }
 
 .page-content .wrapper { padding: 0; min-width: 100%; }
 
-.home-copy { background-color: #eeeeee; }
+.home-copy, .portfolio-apps, .portfolio-labs { background-color: #eeeeee; }
 
 /*# sourceMappingURL=style.css.map */

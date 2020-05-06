@@ -339,4 +339,16 @@ table td { border: 1px solid #e8e8e8; }
 
 .home-copy, .portfolio-apps, .portfolio-labs { background-color: #eeeeee; }
 
+.page-link { border: none !important; }
+
+.container.custom_hero { max-width: 400px; }
+
+@media (min-width: 576px) { .container.custom_hero { max-width: 500px; } }
+
+@media (min-width: 768px) { .container.custom_hero { max-width: 720px; } }
+
+@media (min-width: 992px) { .container.custom_hero { max-width: 800px; } }
+
+@media (min-width: 1200px) { .container.custom_hero { max-width: 940px; } }
+
 /*# sourceMappingURL=style.css.map */

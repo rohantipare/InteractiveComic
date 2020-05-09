@@ -341,7 +341,23 @@ table td { border: 1px solid #e8e8e8; }
 
 .page-link { border: none !important; }
 
+.span-hero { color: #37c8f2; }
+
+.custom_middle_home h4 { /*font-size: 1em;*/ color: #37c8f2; font-weight: 600; }
+
+.custom_middle_home p { font-size: 0.6em; }
+
+.custom_middle_home img { transform: scale(1.15); top: 0; bottom: 0; }
+
+.custom_contact_home img { transform: scale(1.5); }
+
 .container.custom_hero { max-width: 400px; }
+
+.container.custom_hero h1 { font-weight: 200; }
+
+.container.custom_hero img { transform: scale(1.4); }
+
+.container.custom_hero .btn-primary { border-radius: 0; border-width: 0; font-weight: 600; background-color: #37c8f2; color: #000000; }
 
 @media (min-width: 576px) { .container.custom_hero { max-width: 500px; } }
 
